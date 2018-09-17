@@ -10,13 +10,16 @@
   "author": "anduin",
   "license": "ISC",
   "devDependencies": {
+    "@types/jquery": "^3.3.6",
     "browserify": "^16.2.2",
     "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.4",
     "gulp-typescript": "^5.0.0-alpha.3",
+    "gulp-uglify": "^3.0.1",
     "tsify": "^4.0.0",
     "typescript": "^3.0.3",
-    "vinyl-source-stream": "^2.0.0",
-    "@types/jquery": "^3.3.6"
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
     "jquery": "^3.3.1"
