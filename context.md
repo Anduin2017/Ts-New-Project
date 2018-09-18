@@ -106,3 +106,35 @@ $ code ./app.js
 使用VSCode打开当前路径下的app.js文件
 
 更多命令应当参考[官方文档](https://code.visualstudio.com/docs/editor/command-line)
+
+## Apache Cordova
+
+```bash
+$ cordova create MyApp
+```
+
+创建一个新的Cordova App，命名为`MyApp`。
+
+```bash
+$ cordova platform ls
+```
+
+在项目目录中执行，列出其支持的所有平台。
+
+```bash
+$ cordova platform add android
+```
+
+在项目目录中执行，添加安卓平台支持。
+
+```bash
+$ cordova build android
+```
+
+在项目目录中执行，编译项目的安卓版本。
+
+```bash
+$ cordova run android
+```
+
+在项目目录中执行，将项目部署到安卓设备上。
